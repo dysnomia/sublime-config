@@ -1,5 +1,5 @@
 <snippet>
-	<description>ICPC template</description>
+	<description>My ICPC template</description>
     <content><![CDATA[
 #include <iostream>
 #include <sstream>

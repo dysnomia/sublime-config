@@ -1,5 +1,5 @@
 <snippet>
-	<description>Forall</description>
+	<description>My Forall</description>
     <content><![CDATA[
 for (auto &${1:val} : ${2:container}) {
 	$0
