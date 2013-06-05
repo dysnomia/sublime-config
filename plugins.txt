@@ -1,0 +1,12 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"LineEndings",
+		"Lua Dev",
+		"Package Control",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeREPL"
+	]
+}
