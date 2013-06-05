@@ -1,0 +1,25 @@
+<snippet>
+	<description>ICPC template</description>
+    <content><![CDATA[
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <map>
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <unordered_map>
+
+using namespace std;
+
+int main() {
+	int ncases;	cin >> ncases;
+	for (int ncase = 0; ncase < ncases; ++ncase) {
+		${1:/* Main */}
+	}
+	return 0;
+}]]></content>
+    <tabTrigger>icpc</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

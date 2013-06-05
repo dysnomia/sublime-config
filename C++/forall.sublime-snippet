@@ -1,0 +1,9 @@
+<snippet>
+	<description>Forall</description>
+    <content><![CDATA[
+for (auto &${1:val} : ${2:container}) {
+	$0
+}]]></content>
+    <tabTrigger>forall</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
