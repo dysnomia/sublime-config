@@ -2,10 +2,11 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"All Autocomplete",
 		"LineEndings",
 		"Lua Dev",
 		"Package Control",
-		"SublimeCodeIntel",
+		"SublimeJEDI",
 		"SublimeLinter",
 		"SublimeREPL"
 	]
