@@ -1,4 +1,4 @@
 sublime-config
 ==============
 
-My sublime user configurations.
+My Sublime Text 2 configurations.
