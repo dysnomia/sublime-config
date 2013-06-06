@@ -1,4 +1,4 @@
 {
 	"workingdir": "${file_path}",
-	"commandline": "gdb --interpreter=mi ./a.out",
+	"commandline": "gdb --interpreter=mi ./a.out"
 }

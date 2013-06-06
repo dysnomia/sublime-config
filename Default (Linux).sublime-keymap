@@ -4,5 +4,5 @@
 	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment", "args": { "block": false } },
 	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
-	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
+	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file"}
 ]
