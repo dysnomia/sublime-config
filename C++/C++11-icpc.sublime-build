@@ -1,5 +1,5 @@
 {
-	"cmd": ["bash", "-c", "g++ -Wall -std=c++11 -g '${file}' -o '${file_path}/${file_base_name}'"],
+	"cmd": ["bash", "-c", "g++ -Wall -std=c++11 -g '${file}' -o a.out && ./a.out < sample.in | diff sample.out -"],
 	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
 	"working_dir": "${file_path}",
 	"selector": "source.c, source.c++",
@@ -8,7 +8,12 @@
 	[
 		{
 			"name": "Run",
-			"cmd": ["bash", "-c", "g++ -Wall -std=c++11 -g '${file}' -o a.out && '${file_path}/../../../Scripts/diff-testcases'"]
-		}
+			"cmd": ["bash", "-c", "cd ${file_path} && g++ -Wall -std=c++11 -g '${file}' -o a.out && '../../diff-testcases.sh'"]
+		},
+		{
+			"name": "Debug",
+			"shell": "true",
+			"cmd": ["bash", "-c", "cd ${file_path} && g++ -Wall -std=c++11 -g '${file}' -o a.out && gdb ./a.out"]
+		},
 	]
 }

@@ -1,0 +1,3 @@
+{
+	"commandline": "gdb --interpreter=mi ./a.out",
+}
