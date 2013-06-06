@@ -5,6 +5,7 @@
 	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
 	{ "keys": ["f5"], "command": "my_gdb" },
+	{ "keys": ["ctrl+f"], "command": "goto_python_definition" },
 	{
 		"keys": ["alt+shift+left"],
 		"command": "set_layout",

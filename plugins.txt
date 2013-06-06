@@ -3,10 +3,9 @@
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
-		"LineEndings",
 		"Lua Dev",
 		"Package Control",
-		"SublimeJEDI",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL"
 	]
