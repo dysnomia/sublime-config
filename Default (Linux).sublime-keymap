@@ -4,5 +4,51 @@
 	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment", "args": { "block": false } },
 	{ "keys": ["ctrl+alt+shift+c"], "command": "toggle_comment", "args": { "block": true } },
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
-	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file"}
+	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
+	{ "keys": ["ctrl+alt+f"], "command": "goto_python_definition" },
+	{ "keys": ["f5"], "command": "my_gdb"},
+	{
+		"keys": ["super+alt+1"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{
+		"keys": ["super+alt+2"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["super+alt+left"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.66, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["super+alt+right"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.33, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	}
+	// {
+	// 	"keys": ["f5"],
+	// 	"command": "my_gdb"
+	// }
 ]
