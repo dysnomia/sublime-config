@@ -5,6 +5,10 @@
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
 	"ensure_newline_at_eof_on_save": true,
+	"font_options":
+	[
+		"directwrite"
+	],
 	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

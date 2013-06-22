@@ -8,7 +8,7 @@
 	{ "keys": ["ctrl+alt+f"], "command": "goto_python_definition" },
 	{ "keys": ["f5"], "command": "my_gdb"},
 	{
-		"keys": ["super+alt+1"],
+		"keys": ["alt+shift+1"],
 		"command": "set_layout",
 		"args":
 		{
@@ -18,7 +18,7 @@
 		}
 	},
 	{
-		"keys": ["super+alt+2"],
+		"keys": ["alt+shift+2"],
 		"command": "set_layout",
 		"args":
 		{
@@ -28,7 +28,7 @@
 		}
 	},
 	{
-		"keys": ["super+alt+left"],
+		"keys": ["alt+shift+left"],
 		"command": "set_layout",
 		"args":
 		{
@@ -38,7 +38,7 @@
 		}
 	},
 	{
-		"keys": ["super+alt+right"],
+		"keys": ["alt+shift+right"],
 		"command": "set_layout",
 		"args":
 		{
