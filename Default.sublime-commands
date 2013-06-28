@@ -2,6 +2,6 @@
 	{
 		"caption": "Normalise German text",
 		"command": "reg_replace",
-		"args": {"replacements": ["to_ae","to_oe","to_ue","to_AE","to_OE","to_UE","to_ss","to_double_quote","to_single_quote"]}
+		"args": {"replacements": ["to_ae","to_oe","to_ue","to_AE","to_OE","to_UE","to_ss","to_double_quote","to_single_quote","to_dash"]}
 	}
 ]

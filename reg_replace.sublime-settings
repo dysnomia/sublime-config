@@ -29,12 +29,16 @@
 			"replace" : "ss"
 		},
 		"to_double_quote" : {
-			"find" : "„|“",
+			"find" : "„|“|«|»",
 			"replace" : "\""
 		},
 		"to_single_quote" : {
-			"find" : "’",
+			"find" : "‚|‘|’|`",
 			"replace" : "'"
+		},
+		"to-dash" : {
+			"find" : "—",
+			"replace" : "-"
 		}
 	}
 }
