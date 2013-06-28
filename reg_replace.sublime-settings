@@ -37,7 +37,7 @@
 			"replace" : "'"
 		},
 		"to-dash" : {
-			"find" : "—",
+			"find" : "\\—|\\–",
 			"replace" : "-"
 		}
 	}
