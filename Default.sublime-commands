@@ -1,7 +1,10 @@
 [
 	{
 		"caption": "Normalise German text",
-		"command": "reg_replace",
-		"args": {"replacements": ["to_ae","to_oe","to_ue","to_AE","to_OE","to_UE","to_ss","to_double_quote","to_single_quote","to_dash"]}
+		"command": "my_substitute",
+		"args": {
+			"from": ["ä",  "ö",  "ü",  "Ä",  "Ö",  "Ü",  "ß",  "„",  "“",  "«",  "»",  "‚", "‘", "’", "`", "—", "–"],
+			"to":   ["ae", "oe", "ue", "Ae", "Oe", "Ue", "ss", "\"", "\"", "\"", "\"", "'", "'", "'", "'", "-", "-"]
+		},
 	}
 ]
