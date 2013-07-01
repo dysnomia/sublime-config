@@ -1,12 +1,12 @@
 {
 	"always_show_minimap_viewport": true,
 	"auto_complete_with_fields": true,
+	"bold_folder_labels": true,
 	"caret_style": "smooth",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
 	"ensure_newline_at_eof_on_save": true,
-	"bold_folder_labels": true,
 	"font_options":
 	[
 		"directwrite"
@@ -17,5 +17,5 @@
 	[
 		"Vintage"
 	],
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": true
 }

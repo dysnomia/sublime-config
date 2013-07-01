@@ -7,6 +7,7 @@
 	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
 	{ "keys": ["ctrl+alt+f"], "command": "goto_python_definition" },
 	{ "keys": ["f5"], "command": "my_gdb"},
+	{ "keys": ["alt+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}},
 	{
 		"keys": ["alt+shift+1"],
 		"command": "set_layout",
