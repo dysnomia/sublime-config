@@ -1,6 +1,6 @@
 [
 	{
-		"caption": "Normalise German text",
+		"caption": "My: Normalise German text",
 		"command": "my_substitute",
 		"args": {
 			"from": ["ä",  "ö",  "ü",  "Ä",  "Ö",  "Ü",  "ß",  "„",  "“",  "«",  "»",  "‚", "‘", "’", "`", "—", "–"],
@@ -8,7 +8,7 @@
 		},
 	},
 	{
-		"caption": "Nth match",
+		"caption": "My: Find nth match",
 		"command": "my_nth_match",
 	}
 ]
