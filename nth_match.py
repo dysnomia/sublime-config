@@ -1,3 +1,4 @@
+import sublime
 import sublime_plugin
 
 
@@ -6,18 +7,26 @@ class MyNthMatchCommand(sublime_plugin.WindowCommand):
         self.window.show_input_panel("Pattern:", "",
                                      self.got_pattern, None, None)
 
-    def got_pattern(self, text):
-        self.pattern = text
+    def got_pattern(self, pattern):
+        self.pattern = pattern
         self.window.show_input_panel("Number of match:", "",
                                      self.got_match, None, None)
 
-    def got_match(self, text):
-        # find pattern
-        view = self.window.active_view()
-        num = int(text)
-        match = view.find_all(self.pattern)[num - 1]
+    def got_match(self, num):
+        try:
+            # get entered match number
+            num = int(num)
 
-        # move cursor to match
-        view.sel().clear()
-        view.sel().add(match)
-        view.show(match)
+            # find pattern
+            view = self.window.active_view()
+            matches = view.find_all(self.pattern)
+            if num < 1 or num > len(matches):
+                raise ValueError('Too few matches.')
+            match = matches[num - 1]
+
+            # move cursor to match position
+            view.sel().clear()
+            view.sel().add(match)
+            view.show(match)
+        except ValueError as e:
+            sublime.status_message(str(e))
