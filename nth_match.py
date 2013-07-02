@@ -15,7 +15,7 @@ class MyNthMatchCommand(sublime_plugin.WindowCommand):
         # find pattern
         view = self.window.active_view()
         num = int(text)
-        match = view.find_all("^$")[num - 1]
+        match = view.find_all(self.pattern)[num - 1]
 
         # move cursor to match
         view.sel().clear()
