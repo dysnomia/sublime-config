@@ -21,12 +21,12 @@ class MyNthMatchCommand(sublime_plugin.WindowCommand):
             view = self.window.active_view()
             matches = view.find_all(self.pattern)
             if num < 1 or num > len(matches):
-                raise ValueError('Too few matches.')
+                raise ValueError
             match = matches[num - 1]
 
             # move cursor to match position
             view.sel().clear()
             view.sel().add(match)
             view.show(match)
-        except ValueError as e:
-            sublime.status_message(str(e))
+        except ValueError:
+            sublime.status_message("Too few matches")
