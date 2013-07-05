@@ -1,4 +1,5 @@
 import sublime_plugin
+import re
 
 
 # get selection and replace the strings in 'from' with
@@ -10,5 +11,5 @@ class MySubstituteCommand(sublime_plugin.TextCommand):
             src = args['from']
             dest = args['to']
             for i in range(0, len(src)):
-                cur = cur.replace(src[i], dest[i])
+                cur = re.sub(src[i], dest[i], cur)
             self.view.replace(edit, region, cur)
