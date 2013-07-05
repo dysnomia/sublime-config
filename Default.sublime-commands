@@ -1,33 +1,6 @@
 [
 	{
-		"caption": "My: Normalise German text",
-		"command": "my_substitute",
-		"args": {
-			"from": ["ä",  "ö",  "ü",  "Ä",  "Ö",  "Ü",  "ß",  "„",  "“",  "«",  "»",  "‚", "‘", "’", "`", "—", "–", "\\{\\{|\\}\\}"],
-			"to":   ["ae", "oe", "ue", "Ae", "Oe", "Ue", "ss", "\"", "\"", "\"", "\"", "'", "'", "'", "'", "-", "-", ""]
-		},
-	},
-	{
 		"caption": "My: Find nth match",
 		"command": "my_nth_match",
-	},
-	{
-		"caption": "My: Open shell",
-		"command": "repl_open",
-		"args": {
-			"type": "subprocess",
-			"encoding": {"windows": "utf-8",
-						 "linux": "utf-8",
-						 "osx": "utf-8"},
-			"cmd": {"windows": ["bash", "-i"],
-					"linux": ["bash", "-i"],
-					"osx": ["bash", "-i"]},
-			"cwd": "$project_path",
-			"cmd_postfix": "\n",
-			"env": {},
-			"suppress_echo": true,
-			"syntax": "Packages/Text/Plain text.tmLanguage"
-		}
 	}
-
 ]
