@@ -6,12 +6,14 @@
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
+	"show_encoding": true,
+    "show_line_endings": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_options":
 	[
 		"directwrite"
 	],
-	"font_size": 12,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
