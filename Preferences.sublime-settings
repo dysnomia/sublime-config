@@ -1,23 +1,26 @@
 {
 	"always_show_minimap_viewport": true,
-	"auto_complete_with_fields": true,
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
-	"show_encoding": true,
-    "show_line_endings": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_options":
 	[
 		"directwrite"
 	],
-	"font_size": 10,
+	"font_size": 11,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"spell_check": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }

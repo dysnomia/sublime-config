@@ -1,0 +1,1 @@
+Install Package Control. Then the settings in "Package Control.sublime-settings" should do the rest.

@@ -1,28 +1,2 @@
 [
-	{ "keys": ["ctrl+,"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
-	{ "keys": ["ctrl+j"], "command": "join_lines" },
-	{ "keys": ["ctrl+minus"], "command": "jump_back" },
-	{ "keys": ["ctrl+shift+minus"], "command": "jump_forward" },
-	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment" },
-	{ "keys": ["ctrl+shift+g"], "command": "reindent", "args": {"single_line": false}},
-	{
-		"keys": ["alt+shift+left"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.66, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-		}
-	},
-	{
-		"keys": ["alt+shift+right"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.33, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-		}
-	}
 ]

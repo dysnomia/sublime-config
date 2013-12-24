@@ -1,5 +1,0 @@
-{
-	"enable_hdevtools": false,
-	"ghc_opts": ["-fno-warn-unused-binds"], // "-fno-warn-missing-signatures"
-	"auto_completion_popup": true
-}

@@ -1,5 +1,6 @@
 SublimeREPLHistory/*
 Package Control.Cache/*
-Package Control.*
+Package Control.last-run
+bh_unicode_*
 *.pyc
 .SublimeREPLHistory

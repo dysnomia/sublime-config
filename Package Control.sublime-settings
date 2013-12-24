@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-lua",
+		"SublimeLinter-pep8",
+		"SublimeREPL"
+	]
+}
