@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"AlignTab",
 		"All Autocomplete",
 		"BracketHighlighter",
 		"SublimeLinter",
