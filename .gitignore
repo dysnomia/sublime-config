@@ -3,4 +3,5 @@ Package Control.Cache/*
 Package Control.last-run
 bh_unicode_*
 *.pyc
+*.tmTheme
 .SublimeREPLHistory

@@ -1,17 +1,18 @@
 {
 	"installed_packages":
 	[
-		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
 		"BracketHighlighter",
+		"SublimeCodeIntel",
+		"SublimeHaskell",
 		"SublimeLinter",
+		"SublimeLinter-annotations",
 		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-lua",
-		"SublimeLinter-pep8",
 		"SublimeREPL"
 	]
 }
