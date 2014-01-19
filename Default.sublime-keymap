@@ -5,6 +5,10 @@
   { "keys": ["ctrl+alt+c"], "command": "toggle_comment" },
   { "keys": ["ctrl+j"], "command": "join_lines" },
 
+  // Build window
+  { "keys": ["f4"], "command": "goto_next_error" },
+  { "keys": ["shift+f4"], "command": "goto_prev_error" },
+
   // Layouts
   {
     "keys": ["alt+shift+left"],
