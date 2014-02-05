@@ -12,6 +12,8 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-lua",
+		"SublimeLinter-pep257",
+		"SublimeLinter-pep8",
 		"SublimeREPL",
 		"ToDone"
 	]
