@@ -8,12 +8,13 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-lua",
-		"SublimeLinter-pep257",
 		"SublimeLinter-pep8",
+		"SublimeLinter-pylint",
 		"SublimeREPL",
 		"ToDone"
 	]
