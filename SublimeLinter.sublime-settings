@@ -40,17 +40,25 @@
                 "excludes": []
             },
             "pep257": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
             "pep8": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": [],
                 "ignore": "E111",
                 "max-line-length": null,
                 "select": ""
+            },
+            "pylint": {
+                "@disable": true,
+                "args": [],
+                "disable": "",
+                "enable": "",
+                "excludes": [],
+                "rcfile": ""
             }
         },
         "mark_style": "outline",

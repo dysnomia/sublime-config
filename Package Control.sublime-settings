@@ -4,7 +4,10 @@
 		"AlignTab",
 		"All Autocomplete",
 		"BracketHighlighter",
+		"GoSublime",
+		"Lua Dev",
 		"Package Control",
+		"SML (Standard ML)",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
@@ -12,8 +15,6 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-lua",
-		"SublimeLinter-pep257",
-		"SublimeLinter-pep8",
 		"SublimeREPL",
 		"ToDone"
 	]
