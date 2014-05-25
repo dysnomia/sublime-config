@@ -16,7 +16,7 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"AlignTab"
+		"BracketHighlighter"
 	],
 	"rulers":
 	[
