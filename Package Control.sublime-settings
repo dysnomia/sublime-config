@@ -1,13 +1,12 @@
 {
 	"installed_packages":
 	[
-		"AlignTab",
-		"All Autocomplete",
 		"BracketHighlighter",
 		"GoSublime",
 		"Lua Dev",
+		"Markdown Preview",
+		"MarkdownEditing",
 		"Package Control",
-		"SML (Standard ML)",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
@@ -16,7 +15,6 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-lua",
-		"SublimeREPL",
-		"ToDone"
+		"SublimeREPL"
 	]
 }

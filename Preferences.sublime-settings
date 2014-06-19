@@ -16,7 +16,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"BracketHighlighter"
+		"BracketHighlighter",
+		"Markdown"
 	],
 	"rulers":
 	[
