@@ -1,13 +1,12 @@
 {
 	"installed_packages":
 	[
+		"All Autocomplete",
 		"BracketHighlighter",
-		"GoSublime",
 		"Lua Dev",
-		"Markdown Preview",
-		"MarkdownEditing",
 		"Package Control",
 		"SublimeCodeIntel",
+		"SublimeHaskell",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-csslint",
