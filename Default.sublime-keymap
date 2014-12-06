@@ -4,6 +4,7 @@
   { "keys": ["ctrl+shift+minus"], "command": "jump_forward" },
   { "keys": ["ctrl+alt+c"], "command": "toggle_comment" },
   { "keys": ["ctrl+j"], "command": "join_lines" },
+  { "keys": ["ctrl+shift+s"], "command": "expand_selection", "args": {"to": "scope"} },
 
   // Build window
   { "keys": ["f4"], "command": "goto_next_error" },

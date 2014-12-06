@@ -5,22 +5,18 @@
 	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
+	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_options":
 	[
 		"directwrite"
 	],
-	"font_size": 11,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
-		"Vintage",
-		"Markdown",
-		"SublimeHaskell",
-		"SublimeLinter-html-tidy",
-		"SublimeLinter-json"
+		"Vintage"
 	],
 	"rulers":
 	[

@@ -1,18 +1,18 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"All Autocomplete",
 		"BracketHighlighter",
 		"Lua Dev",
 		"Package Control",
+		"Select Quoted",
 		"SublimeCodeIntel",
-		"SublimeHaskell",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"SublimeLinter-cppcheck",
 		"SublimeLinter-csslint",
-		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
-		"SublimeLinter-json",
 		"SublimeLinter-lua",
 		"SublimeREPL"
 	]
